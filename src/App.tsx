@@ -1,6 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-// import {none-exist} from "nope";
+import { None } from "nope";
 import "./App.css";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
 		<div className="App">
 			<div>
 				<a href="https://reactjs.org" target="_blank" rel="noreferrer">
+					<None />
 					<img src={reactLogo} className="logo react" alt="React logo" />
 				</a>
 			</div>
